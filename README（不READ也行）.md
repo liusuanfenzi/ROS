@@ -157,9 +157,9 @@ wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 
 ```
 sudo apt-get update
-sudo apt-get install gazebo11
+sudo apt install ros-<ros-distro>-gazebo-ros
 ```
-
+<ros-distro>为你安装的ros版本，在这里为noetic。
 3.启动 Gazebo：
 
 安装完成后，可以通过命令行输入`gazebo`启动 Gazebo。
